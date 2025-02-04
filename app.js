@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
 
-    res.send('Server del mio blog')
+    res.send('Server del mio blog');
 
 })
 
@@ -15,40 +15,40 @@ app.get('/bacheca', (req, res) => {
     const bacheca = [
         {
 
-            titolo: 'Post ciambellone',
-            contenuto: 'Dolci',
+            titolo: 'Il Ciambellone perfetto',
+            contenuto: 'Una deliziosa ciambella soffice e fragrante, perfetta per ogni occasione.',
             immagine: "http://localhost:3000/postpiatti/ciambellone.jpeg",
             tags: ['DolceFattoInCasa', 'RicettaFacile', 'DolciItaliani']
 
         },
         {
 
-            titolo: 'Post cracker barbabietola',
-            contenuto: 'Snack',
+            titolo: 'Cracker alla barbabietola',
+            contenuto: 'Snack croccante e salutare a base di barbabietola, perfetto per una pausa energizzante.',
             immagine: "http://localhost:3000/postpiatti/cracker_barbabietola.jpeg",
             tags: ['SnackSalutari', 'SnackAlternativi', 'RicettaVegana']
 
         },
         {
 
-            titolo: 'Post pane fritto dolce',
-            contenuto: 'Dolci',
+            titolo: 'Pane fritto dolce',
+            contenuto: 'Un dessert croccante e goloso, perfetto per soddisfare la tua voglia di dolce.',
             immagine: "http://localhost:3000/postpiatti/pane_fritto_dolce.jpeg",
             tags: ['DolceFattoInCasa', 'RicettaFacile', 'DolciItaliani']
 
         },
         {
 
-            titolo: 'Post pasta alla barbabietola',
-            contenuto: 'Primi piatti',
+            titolo: 'Pasta alla barbabietola',
+            contenuto: 'Un primo piatto creativo e colorato con barbabietola, ideale per un pranzo gourmet.',
             immagine: "http://localhost:3000/postpiatti/pasta_barbabietola.jpeg",
             tags: ['CucinaCreativa', 'RicettaVegana', 'PranzoGourmet']
 
         },
         {
 
-            titolo: 'Post torta paesana',
-            contenuto: 'Dolci',
+            titolo: 'Torta paesana',
+            contenuto: 'Un dolce tradizionale e rustico, ricco di sapori autentici e genuini.',
             immagine: "http://localhost:3000/postpiatti/torta_paesana.jpeg",
             tags: ['DolceFattoInCasa', 'RicettaFacile', 'DolciItaliani']
 
@@ -62,6 +62,6 @@ app.get('/bacheca', (req, res) => {
 
 app.listen(port, () => {
 
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Example app listening on port ${port}`);
 
 })
