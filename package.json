@@ -1,0 +1,24 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "My blog",
+  "homepage": "https://github.com/SalvatoreMangiacotti/express-blog-intro#readme",
+  "bugs": {
+    "url": "https://github.com/SalvatoreMangiacotti/express-blog-intro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalvatoreMangiacotti/express-blog-intro.git"
+  },
+  "license": "ISC",
+  "author": "Salvatore Mangiacotti",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "node --watch app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
